@@ -2,11 +2,17 @@
 
 :root{
     --primary-color:rgb(255,92,92);
-    /* --text-primary:rgb(250,250,250); */
     --text-color:rgb(66,66,66);
     --text-color-second:rgba(66,66,66,0.7);
     --background:rgb(255,255,255);
     --box-shadow:0 5px 20px 1px rgba(0,0,0,0.5);
+}
+[data-theme="dark"]{
+  --primary-color: orange;
+  --text-color: white;
+  --text-color-second:rgba(255,255,255,0.8);
+  --background: #121213;
+  --box-shadow:0 5px 20px 1px rgba(0,0,0,0.5);
 }
 body{
   background-color: var(--background);
