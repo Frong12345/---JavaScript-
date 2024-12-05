@@ -12,7 +12,6 @@
   --text-color: white;
   --text-color-second:rgba(255,255,255,0.8);
   --background: #121213;
-  --box-shadow:0 5px 20px 1px rgba(0,0,0,0.5);
 }
 body{
   background-color: var(--background);
@@ -91,7 +90,7 @@ a:hover,a:focus{
   display: none;
 }
 .slider{
-  background: #ccc;
+  background: var(--primary-color);
   bottom: 0;
   cursor: pointer;
   left: 0;
